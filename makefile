@@ -1,6 +1,6 @@
 compile: scanner.o listing.o
 	g++ -o compile scanner.o listing.o
-	
+
 scanner.o: scanner.c listing.h tokens.h
 	g++ -c scanner.c
 
