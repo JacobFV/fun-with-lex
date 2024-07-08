@@ -1,0 +1,1 @@
+.l -> .c -> .o -> (no extension) -> lexed file
